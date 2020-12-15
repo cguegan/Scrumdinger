@@ -94,10 +94,10 @@
 		EF84A06A2588DEA500D8EFDE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EF84A0572588D70600D8EFDE /* MeetingView.swift */,
-				EF84A06C2588E0AD00D8EFDE /* CardView.swift */,
 				EF519D3725892ED500550D8C /* ScrumsView.swift */,
 				EF519D3A2589487800550D8C /* DetailView.swift */,
+				EF84A06C2588E0AD00D8EFDE /* CardView.swift */,
+				EF84A0572588D70600D8EFDE /* MeetingView.swift */,
 				EF519D3D25894F1A00550D8C /* EditView.swift */,
 			);
 			path = Views;
