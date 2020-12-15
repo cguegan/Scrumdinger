@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF519D3525892D0900550D8C /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF519D3425892D0900550D8C /* Color+Codable.swift */; };
 		EF84A0562588D70600D8EFDE /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84A0552588D70600D8EFDE /* ScrumdingerApp.swift */; };
 		EF84A0582588D70600D8EFDE /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84A0572588D70600D8EFDE /* MeetingView.swift */; };
 		EF84A05A2588D70800D8EFDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF84A0592588D70800D8EFDE /* Assets.xcassets */; };
 		EF84A05D2588D70800D8EFDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF84A05C2588D70800D8EFDE /* Preview Assets.xcassets */; };
+		EF84A0672588DE8900D8EFDE /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84A0662588DE8900D8EFDE /* DailyScrum.swift */; };
+		EF84A06D2588E0AD00D8EFDE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84A06C2588E0AD00D8EFDE /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF519D3425892D0900550D8C /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		EF84A0522588D70600D8EFDE /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF84A0552588D70600D8EFDE /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		EF84A0572588D70600D8EFDE /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		EF84A0592588D70800D8EFDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF84A05C2588D70800D8EFDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF84A05E2588D70800D8EFDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF84A0662588DE8900D8EFDE /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		EF84A06C2588E0AD00D8EFDE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				EF84A0552588D70600D8EFDE /* ScrumdingerApp.swift */,
-				EF84A0572588D70600D8EFDE /* MeetingView.swift */,
+				EF84A0692588DE9400D8EFDE /* Models */,
+				EF84A06A2588DEA500D8EFDE /* Views */,
 				EF84A0592588D70800D8EFDE /* Assets.xcassets */,
 				EF84A05E2588D70800D8EFDE /* Info.plist */,
 				EF84A05B2588D70800D8EFDE /* Preview Content */,
@@ -67,6 +74,24 @@
 				EF84A05C2588D70800D8EFDE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF84A0692588DE9400D8EFDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF84A0662588DE8900D8EFDE /* DailyScrum.swift */,
+				EF519D3425892D0900550D8C /* Color+Codable.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF84A06A2588DEA500D8EFDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF84A0572588D70600D8EFDE /* MeetingView.swift */,
+				EF84A06C2588E0AD00D8EFDE /* CardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF84A0582588D70600D8EFDE /* MeetingView.swift in Sources */,
+				EF84A0672588DE8900D8EFDE /* DailyScrum.swift in Sources */,
+				EF84A06D2588E0AD00D8EFDE /* CardView.swift in Sources */,
+				EF519D3525892D0900550D8C /* Color+Codable.swift in Sources */,
 				EF84A0562588D70600D8EFDE /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
