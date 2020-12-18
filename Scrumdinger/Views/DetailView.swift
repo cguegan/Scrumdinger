@@ -15,9 +15,10 @@ struct DetailView: View {
     
     var body: some View {
         List {
+            // Meeting Info
             Section(header: Text("Meeting Info")) {
                 NavigationLink(
-                    destination: MeetingView(),
+                    destination: MeetingView(scrum: $scrum),
                     label: {
                         Label("Start Meeting", systemImage: "timer")
                             .font(.headline)
@@ -39,6 +40,8 @@ struct DetailView: View {
                 }
                 .accessibilityElement(children: .ignore)
             }
+            
+            // Attendees
             Section(header: Text("Attendees")) {
                 ForEach(scrum.attendees, id: \.self) { attendee in
                     Label(attendee, systemImage: "person")
