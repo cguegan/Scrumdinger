@@ -23,6 +23,7 @@
 		EFD4CE79258D0FCF00F7C67B /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4CE78258D0FCF00F7C67B /* ScrumTimer.swift */; };
 		EFD4CE7C258D0FDA00F7C67B /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4CE7B258D0FDA00F7C67B /* AVPlayer+Ding.swift */; };
 		EFD4CE7F258D11F400F7C67B /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4CE7E258D11F400F7C67B /* MeetingFooterView.swift */; };
+		EFD4CE83258D211C00F7C67B /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4CE82258D211C00F7C67B /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		EFD4CE78258D0FCF00F7C67B /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		EFD4CE7B258D0FDA00F7C67B /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		EFD4CE7E258D11F400F7C67B /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		EFD4CE82258D211C00F7C67B /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		EF84A0692588DE9400D8EFDE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EFD4CE82258D211C00F7C67B /* History.swift */,
 				EFD4CE7B258D0FDA00F7C67B /* AVPlayer+Ding.swift */,
 				EFD4CE78258D0FCF00F7C67B /* ScrumTimer.swift */,
 				EF84A0662588DE8900D8EFDE /* DailyScrum.swift */,
@@ -209,6 +212,7 @@
 			files = (
 				EF84A0582588D70600D8EFDE /* MeetingView.swift in Sources */,
 				EF519D3825892ED500550D8C /* ScrumsView.swift in Sources */,
+				EFD4CE83258D211C00F7C67B /* History.swift in Sources */,
 				EF519D3E25894F1A00550D8C /* EditView.swift in Sources */,
 				EF1667E2258D04A8008620DF /* MeetingHeaderView.swift in Sources */,
 				EFD4CE7F258D11F400F7C67B /* MeetingFooterView.swift in Sources */,
