@@ -24,9 +24,8 @@ struct MeetingView: View {
                 MeetingHeaderView(secondElapsed: $scrumTimer.secondsElapsed,
                                   secondRemaining: $scrumTimer.secondsRemaining,
                                   scrumColor: scrum.color)
-                Circle()
-                    .strokeBorder(lineWidth: 24,
-                                  antialiased: true)
+                
+                MeetingTimerView(speakers: $scrumTimer.speakers, scrumColor: scrum.color)
                 
                 MeetingFooterView(speakers: $scrumTimer.speakers,
                                   skipAction: scrumTimer.skipSpeaker)
